@@ -1,0 +1,62 @@
+.page {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;   
+    background-color: #131313; 
+  }
+  
+  .card {
+    text-align: center;
+    max-width: 600px;
+    background: #f9f9f9;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #771717;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ffffff;        
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD700;
+    margin: 10px 0;
+    
+  }
+  
+  .buyButton {
+    background-color: #ffc519;
+    color: #333333;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buyButton:hover {
+    background-color: #fff127;
+    color: #333333;
+  }
+
+  .img{
+    border-radius: 15px;
+    margin: 10px 20px; /* Добавляем отступы сверху и снизу картинки */
+  }
+  

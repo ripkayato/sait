@@ -1,0 +1,55 @@
+
+.pluginCard {
+  background: #771717;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Тень вокруг карточки */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Плавное изменение при наведении */
+}
+
+.pluginCard {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.pluginCard:hover {
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Увеличиваем тень при наведении */
+  transform: scale(1.05); /* Легкое увеличение карточки */
+  background-color: #a33535; /* Изменение фона при наведении */
+}
+
+.pluginCard h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 15px 10px 15px; /* Добавлен отступ сверху (20px) и снизу (10px) */
+  color: #ffffff;  /* Белый цвет текста */
+}
+
+.price {
+  font-size: 16px;
+  color: #FFD700;  /* Золотой цвет для цены */
+  font-weight: 500;
+  margin-top: 10px;  /* Дополнительный отступ сверху для опускания цены ниже */
+  text-align: left;
+  margin-left: 20px;
+}
+
+.linkContent:hover {
+  text-decoration: none;
+}
+
+.linkContent {
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit; /* Сохраняет цвет текста от родителя */
+}
+
+.title{
+  text-align: left;
+  margin-left: 4px;
+}
+
+.img{
+  border-radius: 15px;
+}
